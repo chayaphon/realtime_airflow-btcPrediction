@@ -1,0 +1,12 @@
+apache-airflow-providers-mongo==3.0.0
+pandas
+scikit-learn
+prophet
+statsmodels
+xgboost
+numpy
+requests
+pendulum
+python-dateutil
+plotly
+datetime

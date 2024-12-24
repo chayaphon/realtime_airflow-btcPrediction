@@ -1,0 +1,10 @@
+version: '3'
+services:
+  scheduler:
+    volumes:
+      - ./output:/usr/local/airflow/output
+  webserver:
+    ports:
+      - "8800:8080"  # Map host port 8800 to container port 8080
+    command: >
+      airflow webserver --port 8080 --host 0.0.0.0
