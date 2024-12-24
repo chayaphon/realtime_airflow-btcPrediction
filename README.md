@@ -2,7 +2,11 @@
 Lecturer : Asst.Prof Ekarat Rattagan 
 <hr>
 
-## This is the final assignment for building Realtime BTC price foreast in every hours and evaluate model by using airflow as compute and scheduler by using docker.
+## This is the final assignment for building Realtime BTC price forecast in every hours (Training and Inference model for hourly forecasting)
+This project doing 3 main task:
+- DAG 1. Get BTC price and insert to mongodb.
+- DAG 2. Train Model.
+- DAG 3. Forecast BTC price next 12 period (5 minutes each) in next 1 hour.
 
 ### Report
 - [View Report](https://github.com/chayaphon/realtime_airflow-btcPrediction/blob/main/Report.pdf)
@@ -22,4 +26,4 @@ Lecturer : Asst.Prof Ekarat Rattagan
 - To stop project please use "astro dev stop"
 
 Docker :
-    Please change ip address and port as in docker-compose.override.yml
+ <br>  Please change ip address and port as in docker-compose.override.yml
