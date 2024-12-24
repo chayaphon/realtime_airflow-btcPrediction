@@ -2,7 +2,7 @@
 Lecturer : Asst.Prof Ekarat Rattagan 
 <hr>
 
-## This is the final assignment for building Realtime BTC price forecast in every hours (Training and Inference model for hourly forecasting)
+## This is the final assignment for building Realtime BTC price forecast in every hours (Training and Inference model for hourly forecasting) by using Airflow ecosystem, MongoDB and Docker. 
 This project doing 3 main task:
 - DAG 1. Get BTC price and insert to mongodb.
 - DAG 2. Train Model.
