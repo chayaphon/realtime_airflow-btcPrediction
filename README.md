@@ -1,5 +1,6 @@
-# DADS6005: Data Streaming and Real-Time Analytics (NIDA)
-Asst.Prof Dr.Ekarat Rattagan 
+## DADS6005: Data Streaming and Real-Time Analytics (NIDA)
+Lecturer : Asst.Prof Ekarat Rattagan 
+<hr>
 
 ## This is the final assignment for building Realtime BTC price foreast in every hours and evaluate model by using airflow as compute and scheduler by using docker.
 
